@@ -32,5 +32,5 @@ def mkdir_if_not_exists(path: str) -> str:
     os.makedirs(dir, exist_ok=True)
     return dir
 
-url = "https://gist.github.com/glenhallworthreadify/d447e9d6b1fc9cb807b46f952236d4bc"
+url = "https://github.com/takagisou/save_page_as_pdf"
 asyncio.get_event_loop().run_until_complete(main(url))
